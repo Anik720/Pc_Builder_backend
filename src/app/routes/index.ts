@@ -5,7 +5,7 @@ import { PCRouter } from '../modules/books/pc.route'
 const router = express.Router()
 const moduleRoutes = [
   {
-    path: '/PC',
+    path: '/pc',
     route: PCRouter,
   },
 ]
